@@ -1,0 +1,291 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Farid | Developer Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo">FARID<span>.DEV</span></a>
+            
+            <button class="theme-toggle" id="theme-toggle" aria-label="Change theme">
+                🌙
+            </button>
+
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation">
+                <span id="menu-icon">☰</span>
+            </button>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+
+            <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+
+            <h1>Hello, I'm <span>Farid Ali</span></h1>
+
+            <h2>I'm Learning Web Development</h2>
+
+            <p class="description">
+                I am passionate about programming and technology.
+                I love learning new things and building useful
+                digital solutions.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn">View My Work</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+
+        <div class="section-heading">
+            <p>GET TO KNOW ME</p>
+            <h2>About <span>Me</span></h2>
+        </div>
+
+        <div class="about-content">
+
+            <div class="about-image">
+                <img src="profile.jpeg" alt="Farid Ali">
+            </div>
+
+            <div class="about-text">
+
+                <h3>Hello! I'm Farid Ali</h3>
+
+                <p>
+                    I am a beginner Web Developer with an interest
+                    in Python, Django and modern web technologies.
+                </p>
+
+                <p>
+                    I enjoy learning programming, solving problems
+                    and creating useful digital projects.
+                    My goal is to become a professional developer.
+                </p>
+
+                <a href="#contact" class="btn">Let's Talk</a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Skills Section -->
+    <section class="skills section" id="skills">
+
+        <div class="section-heading">
+            <p>WHAT I KNOW</p>
+            <h2>My <span>Skills</span></h2>
+        </div>
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+                <h3>HTML</h3>
+                <p>Web Structure</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>CSS</h3>
+                <p>Web Design</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>JavaScript</h3>
+                <p>Web Interaction</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Python</h3>
+                <p>Programming</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Django</h3>
+                <p>Backend Development</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Git & GitHub</h3>
+                <p>Version Control</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- Projects Section -->
+    <section class="projects section" id="projects">
+
+        <div class="section-heading">
+            <p>MY RECENT WORK</p>
+            <h2>My <span>Projects</span></h2>
+        </div>
+
+        <div class="projects-container">
+
+            <div class="project-card">
+                <h3>DBSSVC</h3>
+                <p>
+                    Bangladesh Smart Services is a platform
+                    designed to provide useful digital services.
+                </p>
+                <a href="https://dbssvc.onrender.com/"
+                   target="_blank" class="project-link">
+                    View Project
+                </a>
+            </div>
+
+            <div class="project-card">
+                <h3>Python OOP Projects</h3>
+                <p>
+                    Learning object-oriented programming
+                    through practical Python projects.
+                </p>
+                <span class="project-status">Learning Project</span>
+            </div>
+
+            <div class="project-card">
+                <h3>Personal Portfolio</h3>
+                <p>
+                    My personal website built with HTML
+                    and CSS to showcase my skills and work.
+                </p>
+                <span class="project-status">In Progress</span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+
+        <div class="section-heading">
+            <p>GET IN TOUCH</p>
+            <h2>Contact <span>Me</span></h2>
+        </div>
+
+        <div class="contact-content">
+
+            <div class="contact-info">
+                <h3>Let's Work Together</h3>
+
+                <p>
+                    Have a project or an idea?
+                    Feel free to contact me.
+                    I would love to hear from you.
+                </p>
+
+                <p><strong>Name:</strong> Farid Ali</p>
+                <p><strong>Profession:</strong> Web Developer Learner</p>
+                <p><strong>Location:</strong> Bangladesh</p>
+            </div>
+
+            <form class="contact-form">
+
+                <input
+                    type="text"
+                    placeholder="Your Name"
+                    required
+                >
+
+                <input
+                    type="email"
+                    placeholder="Your Email"
+                    required
+                >
+
+                <input
+                    type="text"
+                    placeholder="Subject"
+                    required
+                >
+
+                <textarea
+                    placeholder="Your Message"
+                    rows="6"
+                    required
+                ></textarea>
+
+                <button type="submit" class="btn">
+                    Send Message
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- Footer Section -->
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <a href="#home" class="logo">
+                FARID<span>.DEV</span>
+            </a>
+
+            <p>
+                Building my future through code and creativity.
+            </p>
+
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>
+                &copy; 2026 Farid Ali. All Rights Reserved.
+            </p>
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
